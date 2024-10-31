@@ -1,9 +1,13 @@
 {
+  "$schema": "https://json.schemastore.org/package.json",
   "name": "@blumsicle/prettier-config",
   "version": "1.0.0",
   "description": "My standard prettier config",
   "author": "Brian Blumberg",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "type": "module",
   "exports": "./prettier.config.mjs",
   "devDependencies": {
